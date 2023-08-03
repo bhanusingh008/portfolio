@@ -1,0 +1,13 @@
+.about-container{
+    display: flex;
+}
+
+.about-container .profile{
+    border-radius: 100%;
+    height: 50vh;
+}
+
+.about-container p{
+    font-size: 40px;
+    transform: translate(10%, 40%);
+}

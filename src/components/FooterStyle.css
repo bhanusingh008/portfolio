@@ -1,0 +1,65 @@
+.footer{
+    width: 100;
+    padding: 6rem 6rem;
+    background-color: rgba(19, 19, 19, 0.5);
+    color:#fff;
+    grid-gap: 40px;
+    margin: auto;
+
+}
+
+.left{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.location{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.phone{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.email{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.right{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+
+}
+
+@media screen and (max-width: 640px) {
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.linkedIn{
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.github{
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
